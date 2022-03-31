@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url('../images/hip-square.png');
+  margin: 0;
+}
+img {
+  width: 100%;
+}
+header,
+main {
+  width: 80%;
+  margin: auto;
+}
+h1 {
+  font-family: Impact, Arial Black;
+  font-size: 120px;
+  background-image: url('../images/yudha-aprilian-5SazmKgRYnw-unsplash.jpg');
+  background-size: cover;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-attachment: fixed;
+}
+
+.thumbnails {
+  display: flex;
+  border: 1px solid red;
+  flex-wrap: wrap;
+}
+
+.thumbnails .column {
+  border: 1px solid purple;
+  flex: 20%;
+  padding: 10px;
+}
+.project-thumbs .column {
+  flex: 20%;
+}
+a {
+  color: chocolate;
+  text-decoration: none;
+}
+a:hover {
+  color: cadetblue;
+  border-bottom: 2px solid cadetblue;
+}
