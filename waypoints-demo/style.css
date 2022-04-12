@@ -1,5 +1,6 @@
 main {
-  width: 200vw;
+  /* increase this to match the number of sections you want */
+  width: 300vw;
   display: flex;
 }
 .vertical-page main {
@@ -7,7 +8,8 @@ main {
 }
 
 .one,
-.two {
+.two,
+.three {
   width: 100vw;
   height: 100vh;
 }
@@ -17,4 +19,8 @@ main {
 }
 .two {
   background-color: thistle;
+}
+
+.three {
+  background-color: rgb(104, 80, 104);
 }
