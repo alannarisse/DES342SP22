@@ -1,0 +1,11 @@
+body {
+  height: 100vh;
+}
+.button {
+  background: white;
+  padding: 10px;
+  color: black;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
