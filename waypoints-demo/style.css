@@ -1,0 +1,20 @@
+main {
+  width: 200vw;
+  display: flex;
+}
+.vertical-page main {
+  flex-direction: column;
+}
+
+.one,
+.two {
+  width: 100vw;
+  height: 100vh;
+}
+
+.one {
+  background-color: tomato;
+}
+.two {
+  background-color: thistle;
+}

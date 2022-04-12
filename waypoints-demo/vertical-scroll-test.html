@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>waypoints</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="vertical-page">
+    <main>
+      <div class="one">some stuff</div>
+      <div class="two"><p class="change-me">some other stuff</p></div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/inview.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script>
+      $('.two').waypoint(
+        function () {
+          $('.change-me').html('you have arrived')
+        },
+        { offset: '50%', horizontal: false }
+        // less percentage means more of the thing will load before the change.
+      )
+    </script>
+  </body>
+</html>
